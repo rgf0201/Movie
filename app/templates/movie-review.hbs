@@ -1,0 +1,5 @@
+<h1> Movie title: </h1> {{model.title}}
+<h1> Release Date: </h1> {{model.releaseDate}}
+<h1> Description: </h1> {{model.description}}
+
+{{review-list model=model addReview=(action 'addReview')}}
